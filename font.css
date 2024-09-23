@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+p{
+    font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 10px;
+  word-spacing: 10px ;
+  text-align: justify;
+  text-transform: capitalize;
+  text-decoration-line:underline;
+  text-decoration-color:yellowgreen ;
+  text-decoration-style:dashed;
+  text-decoration-thickness:1px;
+  text-indent: 20px; 
+  text-shadow:2px 2px 5px red;
+
+
+}

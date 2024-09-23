@@ -1,0 +1,28 @@
+.main{
+    height:100vh;
+    display:flex;
+    background-color: yellow;
+    flex-direction:row;
+    /*flex-wrap: wrap-reverse;*/
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.a{
+    flex: 1;
+    height:100px;
+    width:100px;
+    background-color:black;
+}
+.b{
+    flex: 2;
+    height:100px;
+    width:100px;
+    background-color:blue;
+}
+.c{
+    flex: 1;
+    height:100px;
+    width:100px;
+    background-color:aliceblue;
+}

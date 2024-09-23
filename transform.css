@@ -1,0 +1,10 @@
+.a{
+    height:100px;
+    width:100px;
+    background-color: brown;
+    /*transform:translate(300px,100px) scale(1.5) rotate(45degskew(10deg,20deg);*/
+}
+.a:hover{
+    transform: rotate(360deg) translate(6000px) ;
+    transition: 100s ease;
+}

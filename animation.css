@@ -1,0 +1,25 @@
+@keyframes move{
+        from{
+            transform:translatey(0px) ;
+        }
+        to{
+            transform: translatey(300px) rotate(360deg);
+        }
+        
+    }
+ .main{
+    border-radius:50px;
+    width:100px;
+    height:100px;
+    background-color: black;
+    animation-name:move;
+    animation-duration:1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    }
+    hr{
+        margin-top:300px;
+
+    }
