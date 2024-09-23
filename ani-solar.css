@@ -6,7 +6,7 @@
         transform: rotate(360deg)translate(300px);
     }
 }
-keyframes move{
+@keyframes moon{
     from{
         transform: rotate(0deg) translate(300px);
     }
@@ -14,12 +14,12 @@ keyframes move{
         transform: rotate(360deg)translate(300px);
     }
 }
-keyframes move{
+@keyframes rotate{
     from{
-        transform: rotate(0deg) translate(300px);
+        transform: rotate(0deg);
     }
     to{
-        transform: rotate(360deg)translate(300px);
+        transform: rotate(360deg);
     }
 }
 .main{
@@ -28,4 +28,49 @@ keyframes move{
     height: 100px;
     background-color:green;
     animation-name:rotate;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+.full{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    animation-name:move;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    position: absolute;
+    top: 0px;
+}
+.moon{
+    border-radius:25px;
+    position: absolute;
+    width: 30px;
+    height:30px;
+    background-color: aqua;
+    animation-name: moon;
+    animation-duration:3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.main1{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius:50%;
 }
