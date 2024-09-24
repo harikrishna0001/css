@@ -1,0 +1,26 @@
+.main{
+    width:100px;
+    height:100px;
+    display:grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px ;
+    gap:10px;
+}
+.a{
+    width:600px;
+    height:400px;
+    grid-row-start:1 ;
+    grid-row-end: 4;
+}
+.b{
+    width:600px;
+    height:400px;
+}
+.c{
+    width:600px;
+    height:400px;
+}
+.d{
+    width:600px;
+    height:400px;
+}
