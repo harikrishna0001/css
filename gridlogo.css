@@ -1,0 +1,29 @@
+.main{
+    display: grid;
+    grid-template-areas:"item1 item2 item2 item3";
+    background-color:red;
+}
+.item1{
+    grid-area:item1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.item2{
+    grid-area: item2;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.item3{
+    grid-area:item3;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type:none;
+}
+.logo{
+    width:30px;
+    height:30px;
+}
